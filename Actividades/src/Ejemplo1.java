@@ -53,7 +53,7 @@ public class Ejemplo1 {
         System.out.println("float: " + variableFloat + "   | Tamaño: " + Float.BYTES + " bytes (" + Float.SIZE + " bits)");
         System.out.println("double: " + variableDouble + " | Tamaño: " + Double.BYTES + " bytes (" + Double.SIZE + " bits)");
         System.out.println("char: " + variableChar + "       | Tamaño: " + Character.BYTES + " bytes (" + Character.SIZE + " bits)");
-        System.out.println("boolean: " + variableBoolean + " | Tamaño: 1 bit (depende de la JVM, ocupa habitualmente 1 byte)");
+        System.out.println("boolean: " + variableBoolean + " | Tamaño: 1 bit (depende de la JVM, ocupa habitualmente menos de 1 byte)");
 
         System.out.println("\n--- CONSTANTES Y SU TAMAÑO ---");
         System.out.println("CONSTANTE_DOUBLE: " + CONSTANTE_DOUBLE + " | Tamaño: " + Double.BYTES + " bytes (" + Double.SIZE + " bits)");
