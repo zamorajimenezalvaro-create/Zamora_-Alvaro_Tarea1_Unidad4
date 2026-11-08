@@ -41,8 +41,9 @@ public class Ejemplo1 {
          * Para las variables primitivas y las constantes, cada línea muestra el valor almacenado y consulta automáticamente su tamaño exacto en memoria
          * (.BYTES para bytes y .SIZE para bits) a través de sus clases envolventes (como Byte, Integer o Double).
          * Para la variable booleana, se imprime su valor junto a una aclaración sobre su consumo de memoria en la máquina virtual de Java.
-         * Finalmente, para el objeto String, la última línea muestra el texto guardado y calcula su peso aproximado multiplicando la cantidad de caracteres (.length()) por 2,
-         * ya que en Java cada carácter UTF-16 ocupa 2 bytes. */
+         * Finalmente, para el objeto String, la última línea muestra el texto guardado y calcula su peso aproximado multiplicando la cantidad de caracteres
+         * (.length()) por 2, ya que en Java cada carácter UTF-16 ocupa 2 bytes. 
+         */
 
         System.out.println("\n--- VARIABLES PRIMITIVAS Y SU TAMAÑO EN MEMORIA ---");
         System.out.println("byte: " + variableByte + "       | Tamaño: " + Byte.BYTES + " bytes (" + Byte.SIZE + " bits)");
